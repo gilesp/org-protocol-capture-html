@@ -137,6 +137,10 @@ org-protocol-capture-html.sh -h "TODO Feed the cat!" -t i "He gets grouchy if I 
 
 * Changelog
 
+** <2016-09-22 Thu>
++ Changed pandoc wrap argument from ~--no-wrap~ to ~--wrap=none~ to
+  prevent warning about deprecated argument appearing in output.
+
 ** <2016-04-03 Sun>
 
 + Add support for [[https://github.com/buriy/python-readability][python-readability]].
